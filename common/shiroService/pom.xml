@@ -3,19 +3,15 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.maker</groupId>
-        <artifactId>XM</artifactId>
+        <artifactId>common</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>common</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>service_shiro</artifactId>
+    <packaging>jar</packaging>
 
-    <name>common</name>
+    <name>shiroService</name>
     <url>http://maven.apache.org</url>
-    <modules>
-        <module>front_utils</module>
-        <module>shiroService</module>
-    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
