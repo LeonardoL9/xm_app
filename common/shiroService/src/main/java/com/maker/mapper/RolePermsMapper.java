@@ -2,7 +2,7 @@ package com.maker.mapper;
 
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.sucker.shiroservice.entity.RolePerms;
+import com.maker.entity.RolePerms;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 

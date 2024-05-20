@@ -4,7 +4,8 @@ import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTCreator;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.interfaces.DecodedJWT;
-import com.baomidou.mybatisplus.core.toolkit.StringUtils;
+import org.springframework.util.StringUtils;
+
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Calendar;
@@ -31,7 +32,7 @@ public  class TokenUtils {
         //从header中获取token
         String token = httpRequest.getHeader("Authorization");
         //如果header中不存在token，则从参数中获取token
-        if (StringUtils.isBlank(token)) {
+        if (StringUtils.isEmpty(token)) {
             token = httpRequest.getParameter("Authorization");
         }
         return token;

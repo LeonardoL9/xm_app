@@ -1,7 +1,7 @@
 package com.maker.filters;
 
 import com.google.gson.Gson;
-import com.sucker.commonutils.R;
+import com.maker.R;
 import org.apache.shiro.subject.Subject;
 import org.apache.shiro.web.filter.authz.RolesAuthorizationFilter;
 

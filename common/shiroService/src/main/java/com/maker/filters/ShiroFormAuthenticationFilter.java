@@ -2,9 +2,9 @@ package com.maker.filters;
 
 import com.baomidou.mybatisplus.core.toolkit.ObjectUtils;
 import com.google.gson.Gson;
-import com.sucker.commonutils.R;
-import com.sucker.shiroservice.config.AuthToken;
-import com.sucker.shiroservice.utils.TokenUtils;
+import com.maker.R;
+import com.maker.config.AuthToken;
+import com.maker.utils.TokenUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationToken;
@@ -18,6 +18,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+
+;
+;
 
 /**
  * 重新onAccessDenied 实现shiro对未认证的页直接返回json 而不是重定向

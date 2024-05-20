@@ -1,5 +1,6 @@
 package com.maker.entity;
 
+import com.baomidou.mybatisplus.annotation.*;
 import lombok.Getter;
 import lombok.Setter;
 

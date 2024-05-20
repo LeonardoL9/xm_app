@@ -1,7 +1,8 @@
 package com.maker.service;
 
-import com.sucker.shiroservice.entity.Perms;
-import com.sucker.shiroservice.entity.User;
+
+import com.maker.entity.Perms;
+import com.maker.entity.User;
 
 import java.util.List;
 

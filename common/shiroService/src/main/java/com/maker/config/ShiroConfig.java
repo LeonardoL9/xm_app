@@ -1,8 +1,8 @@
 package com.maker.config;
 
-import com.sucker.shiroservice.filters.ShiroFormAuthenticationFilter;
-import com.sucker.shiroservice.filters.ShiroRolesAuthorizationFilter;
-import com.sucker.shiroservice.shiro.realms.CustomerRealm;
+import com.maker.filters.ShiroFormAuthenticationFilter;
+import com.maker.filters.ShiroRolesAuthorizationFilter;
+import com.maker.shiro.realms.CustomerRealm;
 import org.apache.shiro.realm.Realm;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
@@ -40,7 +40,7 @@ public class ShiroConfig {
         Map<String ,String> map  = new HashMap<>();
         //注意顺序，不受限的资源放在上面
         //这里user下面的东西或许可以使用/user/**
-        map.put("/infoservice/info/login/**","anon");//anon设置为公共资源
+        /*map.put("/infoservice/info/login/**","anon");//anon设置为公共资源
 
         //swagger
         map.put("/swagger-ui.html", "anon");
@@ -53,7 +53,7 @@ public class ShiroConfig {
         map.put("/doc.html","anon");
 
 
-        map.put("/**","anon");//anon设置为公共资源
+        map.put("/**","anon");//anon设置为公共资源*/
 
         //map.put("/**","authc");//authc 请求这个资源需要认证和授权
 

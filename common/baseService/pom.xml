@@ -7,16 +7,14 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>front_utils</artifactId>
+    <artifactId>baseService</artifactId>
     <packaging>jar</packaging>
 
-    <name>front_utils</name>
+    <name>baseService</name>
     <url>http://maven.apache.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <dependencies>
@@ -26,13 +24,10 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
-
-
-        <!--JWT-->
         <dependency>
-            <groupId>io.jsonwebtoken</groupId>
-            <artifactId>jjwt</artifactId>
-            <version>0.9.1</version>
+            <groupId>com.maker</groupId>
+            <artifactId>front_utils</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
     </dependencies>

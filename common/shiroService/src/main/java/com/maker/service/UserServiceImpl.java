@@ -1,14 +1,14 @@
 package com.maker.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.sucker.shiroservice.entity.Perms;
-import com.sucker.shiroservice.entity.Role;
-import com.sucker.shiroservice.entity.RolePerms;
-import com.sucker.shiroservice.entity.User;
-import com.sucker.shiroservice.mapper.PermsMapper;
-import com.sucker.shiroservice.mapper.RoleMapper;
-import com.sucker.shiroservice.mapper.RolePermsMapper;
-import com.sucker.shiroservice.mapper.UserMapper;
+import com.maker.entity.Perms;
+import com.maker.entity.Role;
+import com.maker.entity.RolePerms;
+import com.maker.entity.User;
+import com.maker.mapper.PermsMapper;
+import com.maker.mapper.RoleMapper;
+import com.maker.mapper.RolePermsMapper;
+import com.maker.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

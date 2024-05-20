@@ -1,7 +1,7 @@
 package com.maker.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.sucker.shiroservice.entity.User;
+import com.maker.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
